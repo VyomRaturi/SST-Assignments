@@ -109,15 +109,15 @@ You need to create an HTML document that includes an image. Use the `<img>` tag 
     <title>My Webpage</title>
 </head>
 <body>
-    <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Dog_Image">
 </body>
 </html>
 ```
 
 #### Test Cases
 1. The page should include an `<img>` tag.
-2. The `src` attribute of the `<img>` tag should be set to "https://via.placeholder.com/150".
-3. The `alt` attribute of the `<img>` tag should be set to "Placeholder Image".
+2. The `src` attribute of the `<img>` tag should be set
+3. The `alt` attribute of the `<img>` tag should be set 
 
 ---
 
@@ -140,6 +140,7 @@ You need to create an HTML document that contains links to other webpages using 
 2. Use the `<a>` tag to create links.
 3. Set the `href` attribute to the URL you want to link to.
 4. Provide descriptive link text between the opening and closing `<a>` tags.
+5. Use this url as href `https://www.google.com`
 
 #### Code Stub
 ```html
@@ -166,12 +167,10 @@ You need to create an HTML document that contains links to other webpages using 
     <title>My Webpage</title>
 </head>
 <body>
-    <a href="https://www.example.com">Visit Example.com</a>
     <a href="https://www.google.com">Visit Google</a>
 </body>
 </html>
 ```
 
 #### Test Cases
-1. The page should include an `<a>` tag with `href="https://www.example.com"` and link text "Visit Example.com".
-2. The page should include an `<a>` tag with `href="https://www.google.com"` and link text "Visit Google".
+1. The page should include an `<a>` tag with `href="https://www.google.com"`
