@@ -231,4 +231,3 @@ Design a table to show student names along with their grades in three subjects: 
 2. Check that the table has at least three rows of student data.
 3. Ensure that the header row uses `<th>` elements and the data rows use `<td>` elements.
 
-These problems should help students understand the basic use of HTML lists, forms, and tables while providing hands-on practice with coding.
